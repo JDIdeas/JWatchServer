@@ -1,7 +1,6 @@
 const express = require('express');
 const { Server: SocketServer } = require('socket.io');
 const { createServer } = require('http');
-const mongoose = require('mongoose');
 
 const app = express();
 const httpServer =  createServer(app);
