@@ -21,6 +21,6 @@ io.on('connection', (socket) =>{
     })
 })
 
-const PORT = 80;
+const PORT = 3000;
 
 app.listen(PORT)
